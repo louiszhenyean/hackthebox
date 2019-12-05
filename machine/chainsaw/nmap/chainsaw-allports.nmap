@@ -1,0 +1,11 @@
+# Nmap 7.60 scan initiated Thu Dec  5 15:17:37 2019 as: nmap -p- -v -oA chainsaw-allports 10.10.10.142
+Nmap scan report for 10.10.10.142
+Host is up (0.21s latency).
+Not shown: 65532 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+9810/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Dec  5 15:51:51 2019 -- 1 IP address (1 host up) scanned in 2054.26 seconds
