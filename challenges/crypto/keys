@@ -1,0 +1,15 @@
+The Challenge Information:
+hBU9lesroX_veFoHz-xUcaz4_ymH-D8p28IP_4rtjq0=
+gAAAAABaDDCRPXCPdGDcBKFqEFz9zvnaiLUbWHqxXqScTTYWfZJcz-WhH7rf_fYHo67zGzJAdkrwATuMptY-nJmU-eYG3HKLO9WDLmO27sex1-R85CZEFCU=
+
+Using Fernet Decoder 
+https://asecuritysite.com/encryption/ferdecode
+
+The Token is the second line:
+gAAAAABaDDCRPXCPdGDcBKFqEFz9zvnaiLUbWHqxXqScTTYWfZJcz-WhH7rf_fYHo67zGzJAdkrwATuMptY-nJmU-eYG3HKLO9WDLmO27sex1-R85CZEFCU=
+
+The Key is the first line:
+hBU9lesroX_veFoHz-xUcaz4_ymH-D8p28IP_4rtjq0=
+
+The Decoded Flag:
+HTB{N0t_A_Fl1g!}
