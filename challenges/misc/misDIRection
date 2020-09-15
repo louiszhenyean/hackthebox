@@ -1,1 +1,8 @@
-VimCrypt~01!BbVímê?Z@à^@ïæù4ò|¬ÖŠlH}ab˜AJ^é¥eøşI«(J KÜú,2RæÌUHl‡Øeq«ÍØB_Eò´!Ÿ©gäQqÛ™}¥şøtÒKñ.±´‡o1¿6í6éšà±Ñ«iÓ¨l¼ƒDíR¸GÉ¥	;‡jªÀæ–ıéü§/Àğ€ÙSóæóK•Ëß*ÀÓùâ0æ—\„Rƒ¥5M¤£ ­n$çË$–bÌÕ¥»–„8İ«Fú'j3Ş•Ò·Kyl×}Ò¯¨ØóîFÿÚb-¦dâßş‰}
+ls -R the file and you get a list of idk what
+Rearrange the directory char following the digit behind
+
+and you will get:
+SFRCe0RJUjNjdEx5XzFuX1BsNDFuX1NpN2V9
+
+Base64 Decode and you will get the flag:
+HTB{DIR3ctLy_1n_Pl41n_Si7e}

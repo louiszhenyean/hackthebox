@@ -1,4 +1,7 @@
-VimCrypt~01!-q4ƒ÷ô&Ì}1sÀ‹/ù¾”4'>eÓfú97”UÎU{Ão™¤+†
-‹-¥ÁË‰ä¿6¥h¸T0!¬ĞBƒ9Ã®ÈuŠQv0^¸Cğæß®Zm€ÏJ[€ÍV@c”³ö#
-ıÏBz¥‰TîNêoûöOQ`õ®dÎæt$^K*
-]n§ÂB¾´“»ï„Î[8Âv¾
+Exploit using Microsoft SMB (ms08_067_netapi) vulnerability on port 445
+
+user.txt
+e69af0e4f443de7e36876fda4ec7644f
+
+root.txt
+993442d258b0e0ec917cae9e695d5713
